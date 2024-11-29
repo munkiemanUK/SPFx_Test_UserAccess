@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "test-user-access-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/testUserAccess/TestUserAccessWebPart.js",
+          "manifest": "./src/webparts/testUserAccess/TestUserAccessWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "bootstrap": {
+      "path": "https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js",
+      "globalName": "bootstrap"
+    }
+  },
+  "localizedResources": {
+    "TestUserAccessWebPartStrings": "lib/webparts/testUserAccess/loc/{locale}.js"
+  }
+}

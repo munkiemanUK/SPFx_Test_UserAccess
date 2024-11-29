@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.18.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.24.0"
+    },
+    "version": "1.20.0",
+    "libraryName": "test-user-access",
+    "libraryId": "b43045e8-e1ed-4bcf-b1f9-4e412d46a9c8",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "Test-User-Access",
+    "solutionShortDescription": "Test-User-Access description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
